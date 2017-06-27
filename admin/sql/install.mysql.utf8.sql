@@ -148,14 +148,7 @@ CREATE TABLE `#__gg_files` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
--- ----------------------------
--- Records of #__gg_files
--- ----------------------------
-INSERT INTO `#__gg_files` VALUES ('1', 'tailorMade Cyber', '1', null, '080317_TM_IT_wording_CYBER RISK_NEU_RZ3_Final.pdf');
-INSERT INTO `#__gg_files` VALUES ('2', 'tailorMade Assistance', '1', null, '080317_TM_IT_wording_HOME ASSISTANCE_RZ1_Final.pdf');
-INSERT INTO `#__gg_files` VALUES ('3', 'tailorMade Home', '1', null, '310317_TM_IT_wording_Home_RZ5.pdf');
-INSERT INTO `#__gg_files` VALUES ('5', 'tailorMade Questionario', '1', null, '070317_TM_IT_Questionnaire_NEU_RZ_Formular.pdf');
-INSERT INTO `#__gg_files` VALUES ('6', 'tailorMade Prospetto di polizza', '1', null, 'Prospetto di Polizza.pdf');
+ 
 
 -- ----------------------------
 -- Table structure for `#__gg_files_map`
