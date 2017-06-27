@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component"  method="upgrade">
+
+	<name>GGLMS</name>
+	<!-- The following elements are optional and free of formatting constraints -->
+	<creationDate>Giugno 2017</creationDate>
+	<author>Antonio Giangravè</author>
+	<authorEmail>antonio@ggallery.it</authorEmail>
+	<authorUrl>http://www.ggallery.it</authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>License Info</license>
+	<!--  The version string is recorded in the components table -->
+	<version>3.1.0</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>GGLMS component</description>
+
+	<updateservers>
+		<server type="extension" element="com_gglms" name="gglms" priority="1">http://www.gallerygroup.it/update/gglmsupdate.xml</server>
+		gglmsupdate.xml</server>
+	</updateservers>
+
+	<update>
+		 
+	</update>
+
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>gglms.php</filename>
+		<filename>router.php</filename>
+		<filename>controller.php</filename>
+
+		 
+	</files>
+
+	<administration>
+		<menu link='index.php?option=com_gglms'>GGlms!</menu>
+
+		<files folder="admin">
+			<!-- Admin Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>gglms.php</filename>
+			<filename>controller.php</filename>
+
+		 
+		</files>
+	</administration>
+
+</extension>
