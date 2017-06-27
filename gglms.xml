@@ -18,6 +18,12 @@
 		<server type="extension" element="com_gglms" name="gglms" priority="1">https://raw.githubusercontent.com/AntonioGiangrave/updategglms/master/gglmsupdate.xml</server>
 	</updateservers>
 
+	<install>
+    <sql>
+      <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+    </sql>
+  	</install>
+
 	<update>
 		 	<schemas>
 			<schemapath type="mysql">sql/updates/mysql</schemapath>
