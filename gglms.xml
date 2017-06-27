@@ -15,7 +15,7 @@
 	<description>GGLMS component</description>
 
 	<updateservers>
-		<server type="extension" element="com_gglms" name="gglms" priority="1">http://www.gallerygroup.it/update/gglmsupdate.xml</server>
+		<server type="extension" element="com_gglms" name="gglms" priority="1">https://raw.githubusercontent.com/AntonioGiangrave/updategglms/master/gglmsupdate.xml</server>
 	</updateservers>
 
 	<update>
