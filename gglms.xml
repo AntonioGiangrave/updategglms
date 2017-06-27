@@ -19,7 +19,9 @@
 	</updateservers>
 
 	<update>
-		 
+		 	<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+		</schemas>
 	</update>
 
 	<files folder="site">
@@ -28,6 +30,12 @@
 		<filename>router.php</filename>
 		<filename>controller.php</filename>
 
+		<folder>controllers</folder>
+		<folder>helpers</folder>
+		<folder>language</folder>
+		<folder>librarires</folder>
+		<folder>models</folder>
+		<folder>views</folder>
 		 
 	</files>
 
@@ -35,11 +43,19 @@
 		<menu link='index.php?option=com_gglms'>GGlms!</menu>
 
 		<files folder="admin">
-			<!-- Admin Main File Copy Section -->
 			<filename>index.html</filename>
 			<filename>gglms.php</filename>
 			<filename>controller.php</filename>
 
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>images</folder>
+			<folder>jupload</folder>
+			<folder>language</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>view</folder>
+			<folder>sql</folder>
 		 
 		</files>
 	</administration>
